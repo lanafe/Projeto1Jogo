@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    text-align: center;
+    background: black;
+}
+.corpo{
+    background: url('intro.jpg');
+}
+.intro {
+    background: white;
+    border-radius: 60px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #f0ddee;
+    border-radius: 60px;
+}
+
+#fada{
+    border-radius: 60px;
+    width: 300px;
+    height: 400px;
+}
+#mago{
+    border-radius: 60px;
+    width: 300px;
+    height: 400px;
+}
+#metahumano{
+    border-radius: 60px;
+    width: 300px;
+    height: 400px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: white;
+    height: 20px;
+    width: 200px;
+}
+
+.personagens {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto_final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+#perdeu{
+    width: auto;
+    height: 500px;
+}
+
+#vitoria {
+    width: 600px;
+    height: 500px;
+}
+
+.gameover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
