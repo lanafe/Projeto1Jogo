@@ -26,7 +26,7 @@ function meta2(){
         alert("Você passou de fase!");
         meta3();
     }
-    else if (caminho == "fugir"){
+    else if (obstaculo == "fugir"){
         alert("Você foi derrotado!");
         document.write('<link rel="stylesheet" type="text/css" href="escolha_dos_personagens.css"><div class="gameover"><p>A fera correu e te matou!!</p></div><div class="gameover"><img id="perdeu" src="gameover.jpg"></div>');
     }
